@@ -47,13 +47,18 @@
   "contributes": {
     "commands": [
       {
+        "command": "code-breath.separate-siblings",
+        "title": "Code Breath: Separate Sibling Elements"
+      },
+      {
         "command": "code-breathe.separate-siblings",
-        "title": "Code Breathe: Separate Sibling Elements"
+        "title": "Code Breath: Separate Sibling Elements",
+        "enablement": "false"
       }
     ],
     "keybindings": [
       {
-        "command": "code-breathe.separate-siblings",
+        "command": "code-breath.separate-siblings",
         "key": "ctrl+k space",
         "mac": "cmd+k space",
         "when": "editorTextFocus"
